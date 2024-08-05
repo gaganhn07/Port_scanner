@@ -3,4 +3,4 @@
  Steps:
  1) Enter Host name
  2) Enter range of ports
- 3) Shows which ports are open
+ 3) Shows which ports are open or filtered
