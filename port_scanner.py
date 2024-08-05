@@ -16,7 +16,7 @@ try:
         ans,unans = sr(IP(dst=host)/TCP(dport=ports,flags="S"),verbose=0, timeout=2)
 
         for(s,r) in ans:
-            printf("[+] {} Open".format(s[TCP].dport))
+            print("[+] {} Open".format(s[TCP].dport))
 except(ValueError, RuntimeError, TypeError, NameError):
-    printf("[-] Some Error Occured")
+    print("[-] Some Error Occured")
     print("[-] Exiting..")
